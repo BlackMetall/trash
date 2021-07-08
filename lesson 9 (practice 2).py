@@ -9,7 +9,7 @@
 
 total = int(input())
 
-if total %2==0:
+if total %2==1:
     for i in range(total + 1):
         up = total - i
         print (' ' * up + '* ' * i)
